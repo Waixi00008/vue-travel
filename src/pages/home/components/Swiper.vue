@@ -18,7 +18,8 @@ export default {
         pagination: {
           el: '.swiper-pagination'
         },
-        loop: true
+        loop: true,
+        autoplay: true
       },
       swiperList: [
         {
@@ -46,6 +47,8 @@ export default {
 <style lang="stylus" scoped>
 .wraper >>> .swiper-pagination-bullet-active
   background: #fff
+.wraper >>> .swiper-pagination-bullet
+  background: #ccc
 .wraper
   overflow hidden
   width 100%
